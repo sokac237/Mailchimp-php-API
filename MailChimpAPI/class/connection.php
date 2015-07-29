@@ -3,7 +3,7 @@
   class Connection
   {
        public function spajanje() {
-        $con=mysqli_connect("localhost","root","","crm");
+        $con=mysqli_connect("localhost","root","","");
 
         mysqli_set_charset($con, 'utf8');
 
@@ -23,7 +23,7 @@
             return false;
         }
         else if(is_bool($result)) {
-            //u sluèaju insert, delete, update itd.
+            //u sluÃ¨aju insert, delete, update itd.
             return true;
         }
         
