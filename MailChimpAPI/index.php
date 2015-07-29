@@ -4,10 +4,10 @@
   $sync = new Sinkronizacija();
   
   /*
-  //sinkronizacija lista s mailchimp racuna - dohvati liste i spremi ih u bazu / ažurira
+  //sinkronizacija lista s mailchimp racuna - dohvati liste i spremi ih u bazu / aÅ¾urira
   $jsonData = array(
-        'firma_idfirma'      => 3,
-        'fi_mailChimpAPIkey' => 'a2abd60dd8c7436efc985d8684e4c05e-us10'    
+        'firma_idfirma'      => ,
+        'fi_mailChimpAPIkey' => ''    
   ); 
    
   $sync->dohvatiJSON($jsonData, 'liste');   
@@ -20,9 +20,9 @@
   /*  
   //The JSON data.
   $jsonData = array(
-        'firma_idfirma'      => 3,
-        'fi_mailChimpAPIkey' => 'a2abd60dd8c7436efc985d8684e4c05e-us10',
-        'id_liste'           => '01788b1185'        
+        'firma_idfirma'      => ,
+        'fi_mailChimpAPIkey' => '',
+        'id_liste'           => ''        
   );   
   $sync->dohvatiJSON($jsonData, 'subscribe');
   
@@ -36,10 +36,10 @@
   //ako je kosrisnik subscribed dodaje / azurira ga u kontaktiliste,  ako je na mailchimpu unsubscribed makne ga iz tablice kontaktiliste
   /*
   $jsonData = array(
-        'firma_idfirma'      => 3,
-        'fi_mailChimpAPIkey' => 'a2abd60dd8c7436efc985d8684e4c05e-us10',
+        'firma_idfirma'      => ,
+        'fi_mailChimpAPIkey' => '',
         // ovo je ID liste s mailchim racuna
-        'id_liste'           => '01788b1185',
+        'id_liste'           => '',
         //ovo je id liste kod nas u bazi
         'idMailChimpListe'   => 10
                 
